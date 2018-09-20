@@ -1,0 +1,84 @@
+{
+  "name": "Herrendorf_test",
+  "title": "Herrendorf_test",
+  "id": 409,
+  "description": "",
+  "sources": [
+    {
+      "name": "test",
+      "dataPublishedBy": null,
+      "dataPublisherSource": null,
+      "link": null,
+      "retrievedDate": null,
+      "additionalInfo": null
+    }
+  ],
+  "owidTags": [
+    "Uncategorized"
+  ],
+  "resources": [
+    {
+      "path": "Herrendorf_test.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Agr_VA",
+            "type": "any",
+            "description": "",
+            "owidDisplaySettings": {
+              "unit": "Percent"
+            }
+          },
+          {
+            "name": "Ind_VA",
+            "type": "any",
+            "description": "",
+            "owidDisplaySettings": {
+              "unit": "Percent"
+            }
+          },
+          {
+            "name": "Ser_VA",
+            "type": "any",
+            "description": "",
+            "owidDisplaySettings": {
+              "unit": "Percent"
+            }
+          },
+          {
+            "name": "Agr_EMP",
+            "type": "any",
+            "description": "",
+            "owidDisplaySettings": {
+              "unit": "Percent"
+            }
+          },
+          {
+            "name": "Ind_EMP",
+            "type": "any",
+            "description": "",
+            "owidDisplaySettings": {
+              "unit": "Percent"
+            }
+          },
+          {
+            "name": "Ser_EMP",
+            "type": "any",
+            "description": "",
+            "owidDisplaySettings": {
+              "unit": "Percent"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
