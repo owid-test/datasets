@@ -1,0 +1,50 @@
+{
+  "name": "Employment and gender - PEW test",
+  "title": "Employment and gender - PEW test",
+  "id": 2923,
+  "description": "Questionnaire posed to respondents.\n\n<ul>\n<li> Bullet 1 </li>\n<li> Bullet 2 </li>\n</ul>",
+  "sources": [
+    {
+      "name": "Employment and gender - PEW test",
+      "dataPublisherSource": "National data",
+      "dataPublishedBy": "PEW",
+      "additionalInfo": "Questionnaire posed to respondents.\n\n<ul>\n<li> Bullet 1 </li>\n<li> Bullet 2 </li>\n</ul>"
+    }
+  ],
+  "owidTags": [
+    "Uncategorized"
+  ],
+  "resources": [
+    {
+      "path": "Employment and gender - PEW test.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Percent who agree with statement (PEW test)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": {
+              "name": "Percent who agree"
+            }
+          },
+          {
+            "name": "Percent who disagree with statement (PEW test)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": {
+              "name": "Percent who disagree"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
