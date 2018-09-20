@@ -1,0 +1,48 @@
+{
+  "name": "FIgure1.7",
+  "title": "FIgure1.7",
+  "id": 2903,
+  "description": "Calculations by Simon DeDeo, Santa Fe Institute, from New York Times. 2016. ‘NYT article archive’.",
+  "sources": [
+    {
+      "name": "Data by Simon de Deo (2016)",
+      "dataPublishedBy": "Simon de Deo (2016)",
+      "dataPublisherSource": null,
+      "link": "https://help.nytimes.com/hc/en-us/articles/115014772767-Archives",
+      "retrievedDate": null,
+      "additionalInfo": "Calculations by Simon DeDeo, Santa Fe Institute, from New York Times. 2016. ‘NYT article archive’."
+    }
+  ],
+  "owidTags": [
+    "Uncategorized"
+  ],
+  "resources": [
+    {
+      "path": "FIgure1.7.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Fraction of articles",
+            "type": "any",
+            "description": "",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Percentage of articles",
+            "type": "any",
+            "description": "",
+            "owidDisplaySettings": {}
+          }
+        ]
+      }
+    }
+  ]
+}
