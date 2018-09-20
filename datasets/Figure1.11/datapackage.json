@@ -1,0 +1,42 @@
+{
+  "name": "Figure1.11",
+  "title": "Figure1.11",
+  "id": 2906,
+  "description": "Where there were breaks in series, such as during World War 2 in Former Soviet Union and South Korea, data has been linearly interpolated to create an annual series for each country.\n\n2011-2015 data (and 2009-2010 for Botsawa) was calculated by splicing Bolt, van Zanden (2013) and 'The 2015 Total Economy Database'. All the other data was taken from Bolt, van Zanden (2013).",
+  "sources": [
+    {
+      "name": "Bolt, van Zanden (2013) and 'The 2015 Total Economy Database'",
+      "dataPublishedBy": "Jutta Bolt and Jan Juiten van Zanden (2013) ‘The First Update of the Maddison Project Re-Estimating Growth Before 1820’ - Maddison Project Working Paper WP-4 (January); Conference Board - 'The 2015 Total Economy Database'",
+      "dataPublisherSource": null,
+      "link": "http://www.ggdc.net/maddison/maddison-project/data.htm https://www.conference-board.org/data/economydatabase/index.cfm?id=27762",
+      "retrievedDate": null,
+      "additionalInfo": "Where there were breaks in series, such as during World War 2 in Former Soviet Union and South Korea, data has been linearly interpolated to create an annual series for each country.\n\n2011-2015 data (and 2009-2010 for Botsawa) was calculated by splicing Bolt, van Zanden (2013) and 'The 2015 Total Economy Database'. All the other data was taken from Bolt, van Zanden (2013)."
+    }
+  ],
+  "owidTags": [
+    "Uncategorized"
+  ],
+  "resources": [
+    {
+      "path": "Figure1.11.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "GDP per capita",
+            "type": "any",
+            "description": "Units of measurement: 1990 international dollars",
+            "owidDisplaySettings": {}
+          }
+        ]
+      }
+    }
+  ]
+}
