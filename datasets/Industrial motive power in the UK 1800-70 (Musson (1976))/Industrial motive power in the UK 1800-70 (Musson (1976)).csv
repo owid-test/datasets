@@ -1,0 +1,16 @@
+Entity,Year,Number of factories (Musson (1976)),Number of steam engines (Musson (1976)),Horse power of steam engines (Musson (1976)),Number of water-wheels (Musson (1976)),Horse-power of water-wheels (Musson (1976))
+Cotton,1838,,,46826,,12977.5
+Cotton,1850,,,71005,,11550
+Cotton,1856,,,88001,,9131
+Flax,1838,,,7412,,3678
+Flax,1850,,,10905,,3387
+Flax,1856,,,14387,,3935
+Silk,1838,,,2457,,928
+Silk,1850,,,2858,,853
+Silk,1856,,,4360,,816
+Woollen,1838,,,11526,,9092.5
+Woollen,1850,,,13455,,8689
+Woollen,1856,,,17490,,8411
+Worsted,1838,,,5863,,1313
+Worsted,1850,,,9890,,1625
+Worsted,1856,,,13473,,1431
