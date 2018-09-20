@@ -1,0 +1,42 @@
+{
+  "name": "Figure1.10",
+  "title": "Figure1.10",
+  "id": 2904,
+  "description": "Missing observations for East Germany has been obtained by linear interpolation between 1950 and 1960.",
+  "sources": [
+    {
+      "name": "Maddison (2001) and 'The 2015 Total Economy Database'",
+      "dataPublishedBy": " Angus Maddison (2001) ‘The World Economy: A Millennial Perspective’. Development Centre Studies. Paris: OECD; The Conference Board: ‘The 2015 Total Economy Database’",
+      "dataPublisherSource": null,
+      "link": "http://theunbrokenwindow.com/Development/MADDISON%20The%20World%20Economy--A%20Millennial.pdf https://www.conference-board.org/data/economydatabase/index.cfm?id=27762",
+      "retrievedDate": null,
+      "additionalInfo": "Missing observations for East Germany has been obtained by linear interpolation between 1950 and 1960."
+    }
+  ],
+  "owidTags": [
+    "Uncategorized"
+  ],
+  "resources": [
+    {
+      "path": "Figure1.10.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "GDP per capita",
+            "type": "any",
+            "description": "Units of measurement: 1990 international dollars",
+            "owidDisplaySettings": {}
+          }
+        ]
+      }
+    }
+  ]
+}
