@@ -1,0 +1,42 @@
+{
+  "name": "D_Figure1.1a_country_standardized",
+  "title": "D_Figure1.1a_country_standardized",
+  "id": 2899,
+  "description": "The dataset is created by the splice and interpolation of Bolt, van Zanden (2013); Broadberry (2013) and 'The 2015 Total Economy Database'. 'The Maddison Historical Statistics' and Broadberry (2013) are used for the early years, while 'The 2015 Total Economy Database' is used for the more recent ones.\n\nMore information on the Great Divergence can be found at: https://www.nuffield.ox.ac.uk/users/Broadberry/AccountingGreatDivergence6.pdf\n",
+  "sources": [
+    {
+      "name": "Bolt, van Zanden (2013); Broadberry (2013) and 'The 2015 Total Economy Database'",
+      "dataPublishedBy": "Jutta Bolt and Jan Juiten van Zanden (2013) ‘The First Update of the Maddison Project Re-Estimating Growth Before 1820’ - Maddison Project Working Paper WP-4 (January);  Stephen Broadberry (2013) 'Accounting for the great divergence'; Conference Board - 'The 2015 Total Economy Database'",
+      "dataPublisherSource": null,
+      "link": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/ http://eprints.lse.ac.uk/54573/ https://www.conference-board.org/data/economydatabase/",
+      "retrievedDate": null,
+      "additionalInfo": "The dataset is created by the splice and interpolation of Bolt, van Zanden (2013); Broadberry (2013) and 'The 2015 Total Economy Database'. 'The Maddison Historical Statistics' and Broadberry (2013) are used for the early years, while 'The 2015 Total Economy Database' is used for the more recent ones.\n\nMore information on the Great Divergence can be found at: https://www.nuffield.ox.ac.uk/users/Broadberry/AccountingGreatDivergence6.pdf\n"
+    }
+  ],
+  "owidTags": [
+    "Uncategorized"
+  ],
+  "resources": [
+    {
+      "path": "D_Figure1.1a_country_standardized.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "GDP_per_cap",
+            "type": "any",
+            "description": "Units: 1990 international dollars",
+            "owidDisplaySettings": {}
+          }
+        ]
+      }
+    }
+  ]
+}
