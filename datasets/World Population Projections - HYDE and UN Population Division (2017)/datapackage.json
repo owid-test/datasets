@@ -1,0 +1,80 @@
+{
+  "name": "World Population Projections - HYDE and UN Population Division (2017)",
+  "title": "World Population Projections - HYDE and UN Population Division (2017)",
+  "id": 594,
+  "description": "",
+  "sources": [
+    {
+      "name": "HYDE",
+      "dataPublishedBy": "History Database of the Global Environment (HYDE)",
+      "dataPublisherSource": "HYDE team calculations",
+      "link": "http://themasites.pbl.nl/tridion/en/themasites/hyde/index.html",
+      "retrievedDate": null,
+      "additionalInfo": null
+    },
+    {
+      "name": "UN Population Division (2017 revision)",
+      "dataPublishedBy": "UN Population Division 2017",
+      "dataPublisherSource": "Population Division calculations",
+      "link": "https://esa.un.org/unpd/wpp/Download/Standard/Population/",
+      "retrievedDate": "24/07/2017",
+      "additionalInfo": null
+    }
+  ],
+  "owidTags": [
+    "World Population Growth"
+  ],
+  "resources": [
+    {
+      "path": "World Population Projections - HYDE and UN Population Division (2017).csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "HYDE Estimates 1750-1950",
+            "type": "any",
+            "description": "HYDE estimates of total world population between 1750-1950",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "UN Estimates 1950-2015",
+            "type": "any",
+            "description": "UN estimates of total world population between 1950-2015",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "UN Medium Variant",
+            "type": "any",
+            "description": "UN medium fertility variant population projection",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "UN High Variant",
+            "type": "any",
+            "description": "UN high fertility variant population projection",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "UN Low Variant",
+            "type": "any",
+            "description": "UN low fertility variant population projection",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "UN Constant Fertility",
+            "type": "any",
+            "description": "UN constant fertility variant population projection",
+            "owidDisplaySettings": {}
+          }
+        ]
+      }
+    }
+  ]
+}
