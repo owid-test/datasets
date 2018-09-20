@@ -1,0 +1,102 @@
+{
+  "name": "Globalization over 5 centuries - PWT 9.0, Klasing & Milionis (2014), and Estevadeordal, Frantz, and Taylor (2003)",
+  "title": "Globalization over 5 centuries - PWT 9.0, Klasing & Milionis (2014), and Estevadeordal, Frantz, and Taylor (2003)",
+  "id": 2845,
+  "description": "",
+  "sources": [
+    {
+      "name": "Penn World Tables 9.0",
+      "dataPublishedBy": "Feenstra, Robert C., Robert Inklaar and Marcel P. Timmer (2015), \"The Next Generation of the Penn World Table\" American Economic Review, 105(10), 3150-3182, available for download at www.ggdc.net/pwt",
+      "dataPublisherSource": "Historical data and scholarly sources",
+      "link": "https://www.rug.nl/ggdc/productivity/pwt/",
+      "retrievedDate": "20/07/2018",
+      "additionalInfo": null
+    },
+    {
+      "name": "World Bank (WDI) - Trade (% of GDP)",
+      "dataPublishedBy": "World Bank",
+      "dataPublisherSource": "World Bank national accounts data, and OECD National Accounts data files",
+      "link": "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS",
+      "retrievedDate": "20/07/2018",
+      "additionalInfo": null
+    },
+    {
+      "name": "Klasing and Milionis (2014)",
+      "dataPublishedBy": "Klasing, Mariko J. and Milionis, P. (2014). \"Quantifying the Evolution of World Trade, 1870-1949\". Journal of International Economics 92(1), pp. 185-197",
+      "dataPublisherSource": "Historical import and export figures.",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0022199613001074?via%3Dihub",
+      "retrievedDate": "20/07/2018",
+      "additionalInfo": "For consistency, the 62 countries used in Klasing and Milionis are used to calculate the world trade to GDP ratio for the period 1950-2011. The list can be found in Appendix A2 of their paper."
+    },
+    {
+      "name": "Estevadeordal, Frantz, and Taylor (2003)",
+      "dataPublishedBy": "Estevadeordal, A., Frantz, B., & Taylor, A. (2003). The Rise and Fall of World Trade, 1870-1939. The Quarterly Journal of Economics, 118(2), 359-407. Retrieved from http://www.jstor.org/stable/25053910",
+      "dataPublisherSource": "Historical data and scholarly sources.",
+      "link": "https://www.jstor.org/stable/25053910?seq=1#page_scan_tab_contents",
+      "retrievedDate": "20/07/2018",
+      "additionalInfo": "Notes on the calculation of the lower and upper bound estimates from the authors: \"1500–1800: Trade growth rates from O’Rourke and Williamson [2002, Table 1; volume estimates only]. Level index derived, and scaled by world GDP levels from Maddison [2001, Table B-18]. The “upper bound” series is then scaled to the benchmark 8 percent European trade-GDP ratio for 1780 due to O’Brien [1982], probably an overstatement of the world trade-GDP ratio. The “lower bound” series is scaled to the benchmark 2 percent world trade-GDP ratio for 1820 due to Maddison [1995, Table 2-4], possibly biased downwards relative to the long-run trend because of the blockades during the Napoleonic Wars.\""
+    }
+  ],
+  "owidTags": [
+    "Trade from Antiquity to Early Modern Times"
+  ],
+  "resources": [
+    {
+      "path": "Globalization over 5 centuries - PWT 9.0, Klasing & Milionis (2014), and Estevadeordal, Frantz, and Taylor (2003).csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "World trade (% of GDP) (PWT 9.0)",
+            "type": "any",
+            "description": "Sum of world exports and imports as a share of world GDP (%). ",
+            "owidDisplaySettings": {
+              "unit": "%"
+            }
+          },
+          {
+            "name": "World trade (% of GDP) (World Bank WDI (2016)) ",
+            "type": "any",
+            "description": "World trade is the sum of exports and imports of goods and services measured as a share of gross domestic product.",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "World trade based on own estimates (% of GDP) (Klasing and Milionis (2014)) ",
+            "type": "any",
+            "description": "World trade as a share of GDP based on Klasing and Milionis' (2014) own estimates. Klasing and Milionis (2014) use non-PPP adjusted GDP estimates.",
+            "owidDisplaySettings": {
+              "unit": "%"
+            }
+          },
+          {
+            "name": " World trade based on Maddison (% of GDP) (Klasing and Milionis (2014)) ",
+            "type": "any",
+            "description": "World trade as a share of GDP using Maddison's GDP estimates in international dollars converted from constant to current prices using the US GDP deflator to denominate the sum of exports and imports. ",
+            "owidDisplaySettings": {
+              "unit": "%"
+            }
+          },
+          {
+            "name": "World trade - upper bound (% of GDP) (Estevadeordal, Frantz, and Taylor (2003))",
+            "type": "any",
+            "description": "World trade as a share of GDP,  upper bound estimates.",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "World trade - lower bound (% of GDP) (Estevadeordal, Frantz, and Taylor (2003))",
+            "type": "any",
+            "description": "World trade as a share of GDP,  lower bound estimates.",
+            "owidDisplaySettings": {}
+          }
+        ]
+      }
+    }
+  ]
+}
