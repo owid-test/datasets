@@ -1,0 +1,182 @@
+{
+  "name": "Corruption - Transparency International (2013)",
+  "title": "Corruption - Transparency International (2013)",
+  "id": 305,
+  "description": "",
+  "sources": [
+    {
+      "name": "CPI (Transparency International (2016))",
+      "dataPublishedBy": "Transparency International",
+      "dataPublisherSource": "Various expert surveys including (as available for each country):  African Development Bank Governance Ratings, Bertelsmann Foundation Sustainable Governance Indicators, Bertelsmann Foundation Transformation Index, Economist Intelligence Unit Country Risk Ratings, Freedom House Nations in Transit, Global Insight Country Risk Ratings, IMD World Competitiveness Yearbook, Political and Economic Risk Consultancy Asian Intelligence, Political Risk Services International Country Risk Guide, World Bank - Country Policy and Institutional Assessment, World Economic Forum Executive Opinion Survey, World Justice Project Rule of Law Index ",
+      "link": "http://www.transparency.org/cpi2015",
+      "retrievedDate": "10/10/2016",
+      "additionalInfo": null
+    },
+    {
+      "name": "Transparency International - GCB 2013",
+      "dataPublishedBy": "Transparency International - Global Corruption Barometer",
+      "dataPublisherSource": "Population surveys",
+      "link": "http://www.transparency.org/gcb2013/",
+      "retrievedDate": "11/10/2016",
+      "additionalInfo": null
+    },
+    {
+      "name": "Transparency International – BPI",
+      "dataPublishedBy": "Transparency International – Bribe Payers Index  ",
+      "dataPublisherSource": "Surveys among business executives",
+      "link": "http://www.transparency.org/research/bpi/overview",
+      "retrievedDate": "11/10/2016",
+      "additionalInfo": "Data for the Bribe Payers Index is drawn from the Bribe Payers Survey. The survey asked business executives: \"In your principal lines of business in this country, do you have business relationships (for example as a supplier, client, partner or competitor) with companies whose headquarters are located in any of the following countries?\".\n\n \n\nRespondents were presented a list of 28 countries. For each instance where the respondent answered that they do have business relationships with companies headquartered in a country, the respondents were then asked: \"How often do firms headquartered in (country name) engage in bribery in this country?\"\n\n \n\nAnswers were given on a 5-point scale where 1 corresponded to ‘never’ and 5 to ‘always’. This was then converted into a 10-point scale system, where 10 corresponds to ‘never’ and 0 to ‘always’. Since the index reflects views on foreign bribery, assessments of companies from the respondents’ own countries were excluded."
+    },
+    {
+      "name": "World Bank – Enterprise Survey",
+      "dataPublishedBy": "World Bank – Enterprise Survey",
+      "dataPublisherSource": "Firm-level surveys of a representative sample of an economy's private sector",
+      "link": "http://www.enterprisesurveys.org/data/exploretopics/corruption#--1",
+      "retrievedDate": "11/10/2016",
+      "additionalInfo": "The source notes: \"most surveys were administered using the Enterprise Surveys Global Methodology as outlined in the Methodology page, while some others did not strictly adhere to the Enterprise Surveys Global Methodology. For example, for surveys which do not follow the Global Methodology, the Universe under consideration may have consisted of only manufacturing firms or the questionnaire used may have been different from the standard global questionnaire.\""
+    },
+    {
+      "name": "Fisman and Miguel (2007)",
+      "dataPublishedBy": "Fisman, R., & Miguel, E. (2007). Corruption, norms, and legal enforcement: Evidence from diplomatic parking tickets. Journal of Political economy, 115(6), 1020-1048.",
+      "dataPublisherSource": "Official records complied by the New York City Department of Finance",
+      "link": "http://projects.iq.harvard.edu/gov2126/files/fisman_miguel_parkingtickets.pdf",
+      "retrievedDate": "13/10/2016",
+      "additionalInfo": null
+    }
+  ],
+  "owidTags": [
+    "Corruption"
+  ],
+  "resources": [
+    {
+      "path": "Corruption - Transparency International (2013).csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Corruption Perception Index (Transparency International (2016))",
+            "type": "any",
+            "description": "Annual ranking of countries by their perceived levels of corruption, as determined by expert assessments and opinion surveys. Scale is from 100 (very clean) to 0 (highly corrupt). ",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Corruption Perception Rating (Transparency International - GCB (2013))",
+            "type": "any",
+            "description": "Average of all individuals' perception ratings on a scale from 1 (corruption is not a problem) to 5 (corruption is a very serious problem).",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Incidence of perceived corruption in political parties (Transparency International - GCB (2013))",
+            "type": "any",
+            "description": "Share of people who think political parties are very corrupt.",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Corruption in Parliament/Legislature (Transparency International - GCB (2013))",
+            "type": "any",
+            "description": "Share of respondents in a particular country who felt that parliament/legislature was corrupt/extremely corrupt. ",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Corruption in Military (Transparency International - GCB (2013))",
+            "type": "any",
+            "description": "Share of respondents in a particular country who felt that the military was corrupt/extremely corrupt.",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Corruption in NGOs (Transparency International - GCB (2013))",
+            "type": "any",
+            "description": "Share of respondents in a particular country who felt that NGOs were corrupt/extremely corrupt.",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Corruption in Media (Transparency International - GCB (2013))",
+            "type": "any",
+            "description": "Share of respondents in a particular country who felt that media was corrupt/extremely corrupt.",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Corruption in Religious Bodies (Transparency International - GCB (2013))",
+            "type": "any",
+            "description": "Share of respondents in a particular country who felt that religious bodies were corrupt/extremely corrupt.",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Corruption in Business/Private Sector (Transparency International - GCB (2013))",
+            "type": "any",
+            "description": "Share of respondents in a particular country who felt that business was corrupt/extremely corrupt.",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Corruption in Education system (Transparency International - GCB (2013))",
+            "type": "any",
+            "description": "Share of respondents in a particular country who felt that education systems were corrupt/extremely corrupt.",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Corruption in Judiciary (Transparency International - GCB (2013))",
+            "type": "any",
+            "description": "Share of respondents in a particular country who felt that the judiciary was corrupt/extremely corrupt.",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Corruption in medical and health services (Transparency International - GCB (2013))",
+            "type": "any",
+            "description": "Share of respondents in a particular country who felt that medical and health services were corrupt/extremely corrupt.",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Corruption in Police (Transparency International - GCB (2013))",
+            "type": "any",
+            "description": "Share of respondents in a particular country who felt that police were corrupt/extremely corrupt.",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Corruption in Public officials/Civil servants (Transparency International - GCB (2013))",
+            "type": "any",
+            "description": "Share of respondents in a particular country who felt that public officials and civil servants were corrupt/extremely corrupt.",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Diplomatic parking violations (Fisman and Miguel (2007))",
+            "type": "any",
+            "description": "Average unpaid annual New York city diplomatic parking violations per diplomat, November 1997 to November 2002",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Share of people who have bribed (Transparency International - GCB (2013))",
+            "type": "any",
+            "description": "Share of people who have bribed.",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Bribe payers index (Transparency International - GCB (2013))",
+            "type": "any",
+            "description": "Index constructed from surveys asking business executives  for their perceptions of the likelihood of companies, from countries they have business dealings with, to engage in bribery. A score of 0 corresponds with the perceptions that companies always pay bribes when doing business abroad.",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Firm bribery incidence (World Bank – Enterprise Survey)",
+            "type": "any",
+            "description": "Percentage of firm bribery incidences. ",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Global corruption perception by institutions (Transparency International - GCB (2013))",
+            "type": "any",
+            "description": "Percentage of survey respondents that think each corresponding institution is \"corrupt or extremely corrupt\" in their home country. ",
+            "owidDisplaySettings": {}
+          }
+        ]
+      }
+    }
+  ]
+}
