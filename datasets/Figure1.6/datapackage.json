@@ -1,0 +1,42 @@
+{
+  "name": "Figure1.6",
+  "title": "Figure1.6",
+  "id": 2902,
+  "description": "",
+  "sources": [
+    {
+      "name": "Mann, Zhang, Hughes, Bradley, Miller, Rutherford and Fenbiao (2008)",
+      "dataPublishedBy": "Mann, M., Zhang, Z., Hughes, M., Bradley, R., Miller, S., Rutherford, S., Fenbiao, N. (2008) 'Proxy-based reconstructions of hemispheric and global surface temperature variations over the past two millennia.' Proceedings of the National Academy of Sciences",
+      "dataPublisherSource": null,
+      "link": "http://www.pnas.org/content/early/2008/09/02/0805721105.abstract",
+      "retrievedDate": null,
+      "additionalInfo": null
+    }
+  ],
+  "owidTags": [
+    "Uncategorized"
+  ],
+  "resources": [
+    {
+      "path": "Figure1.6.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Deviation from 1961-1990 average temperature",
+            "type": "any",
+            "description": "Units of measurement: Deviation from 1961-1990 mean temperature in degree celsius.",
+            "owidDisplaySettings": {}
+          }
+        ]
+      }
+    }
+  ]
+}
