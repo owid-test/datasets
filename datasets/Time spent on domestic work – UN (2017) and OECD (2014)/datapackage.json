@@ -1,0 +1,56 @@
+{
+  "name": "Time spent on domestic work – UN (2017) and OECD (2014)",
+  "title": "Time spent on domestic work – UN (2017) and OECD (2014)",
+  "id": 930,
+  "description": "This dataset is an excerpt from the data provided by the United Nations Statistics Division under the Minimum Set of Gended Indicators. \nCross-country comparability is limited due to lack of uniform definitions. Importantly, the ages of the relevant population differ from country to country (and in a few instances, they also differ from year to year for the same country). For most low-income countries, the figures include children among the relevant population. For most high-income countries, children below 15 are excluded. Additionally, in some countries the estimates correspond only to specific regions (e.g. urban). This file provides a column with notes explaining the particular reference population in each case.\n\nRegarding the definitions, the original source notes: \"Average number of hours spent on unpaid domestic work derives from time use statistics that is collected through stand-alone time-use surveys or a time-use module in multi-purpose household surveys. Data on time-use may be summarized and presented as either (1) average time spent for participants only or (2) average time spent for all population of certain age. In the former type of averages the total time spent by the individuals who performed an activity is divided by the number of persons who performed it (participants). In the latter type of averages the total time is divided by the total relevant population (or a sub-group thereof) regardless of whether people performed the activity or not. All statistics presented in the Minimum Set on Gender Indicators on time spent in various activities are averages based on all total relevant population. This type of averages can be used to compare groups and assess changes over time. Differences among groups or over time may be due to a difference (or change) in the proportion of those participating in the specific activity or a difference (or change) in the amount of time spent by participants or both. Data presented for this indicator are expressed as an average per day. It is averaged over seven days of the week (weekdays and weekends are not differentiated).\"",
+  "sources": [
+    {
+      "name": "UN Minimum Set of Gender Indicators (2017)",
+      "dataPublishedBy": "UN Statistics Division",
+      "dataPublisherSource": "Time use statistics collected through stand-alone time-use surveys",
+      "link": "https://genderstats.un.org/#/indicators",
+      "retrievedDate": "19/09/2017",
+      "additionalInfo": "This dataset is an excerpt from the data provided by the United Nations Statistics Division under the Minimum Set of Gended Indicators. \nCross-country comparability is limited due to lack of uniform definitions. Importantly, the ages of the relevant population differ from country to country (and in a few instances, they also differ from year to year for the same country). For most low-income countries, the figures include children among the relevant population. For most high-income countries, children below 15 are excluded. Additionally, in some countries the estimates correspond only to specific regions (e.g. urban). This file provides a column with notes explaining the particular reference population in each case.\n\nRegarding the definitions, the original source notes: \"Average number of hours spent on unpaid domestic work derives from time use statistics that is collected through stand-alone time-use surveys or a time-use module in multi-purpose household surveys. Data on time-use may be summarized and presented as either (1) average time spent for participants only or (2) average time spent for all population of certain age. In the former type of averages the total time spent by the individuals who performed an activity is divided by the number of persons who performed it (participants). In the latter type of averages the total time is divided by the total relevant population (or a sub-group thereof) regardless of whether people performed the activity or not. All statistics presented in the Minimum Set on Gender Indicators on time spent in various activities are averages based on all total relevant population. This type of averages can be used to compare groups and assess changes over time. Differences among groups or over time may be due to a difference (or change) in the proportion of those participating in the specific activity or a difference (or change) in the amount of time spent by participants or both. Data presented for this indicator are expressed as an average per day. It is averaged over seven days of the week (weekdays and weekends are not differentiated).\""
+    },
+    {
+      "name": "OECD Gender, Institutions and Development Database (2014)",
+      "dataPublishedBy": "Gender, Institutions and Development Database 2014",
+      "dataPublisherSource": "Time use statistics",
+      "link": "https://stats.oecd.org/Index.aspx?DataSetCode=GIDDB2014#",
+      "retrievedDate": "19/09/2017",
+      "additionalInfo": "OECD Gender, Institutions and Development Database (2014) \r\n\r\nThe source does not specify the actual measurement methodology. \r\n\r\nFor most countries, estimates correspond to 15-64 year olds. Except: for Australia (15+ year olds), China and Hungary (15-74 year olds) and Sweden (25-64 year olds). \r\n\r\nEstimates refer to different survey years (see source for more details).\r\n\r\nThis dataset was produced using a number of different sources. These include the Economic Commission for Latin America and the Caribbean (HETUS), OECD Time Use Database, United Nations Economic Commission for Europe, and diverse national sources for countries not covered in the previous databases.\r\n\r\nDifferent sources use different reference years, as well as different definitions of unpaid care work. Because of this cross-country comparisons should be made with caution. \r\n\r\nFor the OECD, you can find details regarding all activities included, and the corresponding survey years for each country, here: http://www.oecd.org/gender/data/balancingpaidworkunpaidworkandleisure.htm. "
+    }
+  ],
+  "owidTags": [
+    "Working Hours"
+  ],
+  "resources": [
+    {
+      "path": "Time spent on domestic work – UN (2017) and OECD (2014).csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Daily time spent on domestic work, women (UN (2017))",
+            "type": "any",
+            "description": "Average daily number of hours spent on paid and unpaid domestic work combined (total work burden). The average is taken with respect to the entire relevant population, including those who devote no time to domestic work. Age brackets differ from country to country, so comparability is imperfect. See Additional Information below for more details.",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Female to male ratio of time devoted to unpaid care work (OECD (2014))",
+            "type": "any",
+            "description": "Female to male ratio of time devoted to unpaid care work. Unpaid care work refers to all unpaid services provided within a household for its members, including care of persons, housework and voluntary community work.",
+            "owidDisplaySettings": {}
+          }
+        ]
+      }
+    }
+  ]
+}
