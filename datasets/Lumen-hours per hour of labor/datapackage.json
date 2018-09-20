@@ -1,0 +1,42 @@
+{
+  "name": "Lumen-hours per hour of labor",
+  "title": "Lumen-hours per hour of labor",
+  "id": 2901,
+  "description": "",
+  "sources": [
+    {
+      "name": "Nordhaus (1998)",
+      "dataPublishedBy": "William Nordhaus (1998) \"Do Real Output and Real Wage Measures Capture Reality? The History of Lighting Suggests Not\" Cowles Foundation Paper Number 957, Mimeo, Table 1.6",
+      "dataPublisherSource": null,
+      "link": "http://www.nber.org/chapters/c6064.pdf",
+      "retrievedDate": null,
+      "additionalInfo": null
+    }
+  ],
+  "owidTags": [
+    "Uncategorized"
+  ],
+  "resources": [
+    {
+      "path": "Lumen-hours per hour of labor.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Lumen-hours per hour of labor",
+            "type": "any",
+            "description": "Units of measurement: Lumen-hours per hour of labor",
+            "owidDisplaySettings": {}
+          }
+        ]
+      }
+    }
+  ]
+}
