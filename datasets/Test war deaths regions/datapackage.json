@@ -1,0 +1,27 @@
+{
+  "name": "Test war deaths regions",
+  "title": "Test war deaths regions",
+  "id": 68,
+  "description": "",
+  "sources": [],
+  "owidTags": [
+    "Eradication of Diseases"
+  ],
+  "resources": [
+    {
+      "path": "Test war deaths regions.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          }
+        ]
+      }
+    }
+  ]
+}
