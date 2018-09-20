@@ -1,0 +1,37 @@
+{
+  "name": "average-rating-of-trust-in-others-selected-countries",
+  "title": "average-rating-of-trust-in-others-selected-countries",
+  "id": 2926,
+  "description": "",
+  "sources": [
+    {
+      "name": "average-rating-of-trust-in-others-selected-countries"
+    }
+  ],
+  "owidTags": [
+    "Uncategorized"
+  ],
+  "resources": [
+    {
+      "path": "average-rating-of-trust-in-others-selected-countries.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Trust in others",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": {}
+          }
+        ]
+      }
+    }
+  ]
+}
