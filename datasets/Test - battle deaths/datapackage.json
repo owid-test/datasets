@@ -1,0 +1,84 @@
+{
+  "name": "Test - battle deaths",
+  "title": "Test - battle deaths",
+  "id": 129,
+  "description": "Mean school years",
+  "sources": [
+    {
+      "name": "Test battle deaths source",
+      "dataPublishedBy": "World Bank",
+      "dataPublisherSource": null,
+      "link": null,
+      "retrievedDate": "18/08/2015",
+      "additionalInfo": "Mean school years"
+    },
+    {
+      "name": "test",
+      "dataPublishedBy": null,
+      "dataPublisherSource": null,
+      "link": null,
+      "retrievedDate": null,
+      "additionalInfo": null
+    }
+  ],
+  "owidTags": [
+    "Costs of Wars"
+  ],
+  "resources": [
+    {
+      "path": "Test - battle deaths.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Colonial war",
+            "type": "any",
+            "description": "",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Wars between states",
+            "type": "any",
+            "description": "",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Civil war",
+            "type": "any",
+            "description": "",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Civil war with foreign intervention",
+            "type": "any",
+            "description": "",
+            "owidDisplaySettings": {
+              "unit": "per 100,000"
+            }
+          },
+          {
+            "name": "All wars (for period 2011-13 wars are not distinguished by type)",
+            "type": "any",
+            "description": "",
+            "owidDisplaySettings": {}
+          },
+          {
+            "name": "Test - battle deaths",
+            "type": "any",
+            "description": "",
+            "owidDisplaySettings": {
+              "shortUnit": "%"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
